@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+  <channel>
+    <title>Quinn' Place</title>
+    <link>https://www.q-yin.com</link>
+    <pubDate>Sun, 21 Apr 2024 05:27:40 +0000</pubDate>
+    <description />
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:author>
+      <wp:author_id>-491409659</wp:author_id>
+      <wp:author_login>oni.inn99@gmail.com</wp:author_login>
+      <wp:author_email>oni.inn99@gmail.com</wp:author_email>
+      <wp:author_display_name><![CDATA[_ Inn]]></wp:author_display_name>
+      <wp:author_first_name><![CDATA[_]]></wp:author_first_name>
+      <wp:author_last_name><![CDATA[Inn]]></wp:author_last_name>
+    </wp:author>
+    <wp:category>
+      <wp:cat_name><![CDATA[null - null]]></wp:cat_name>
+      <wp:category_nicename>null-null</wp:category_nicename>
+      <wp:category_parent />
+    </wp:category>
+    <item>
+      <link>/home</link>
+      <title>Home</title>
+      <pubDate>Thu, 25 Apr 2024 02:03:30 +0000</pubDate>
+      <content:encoded><![CDATA[<article class="sections" id="sections" data-page-sections="662580134a463e06c2e93d25">
+  
+  
+</article>]]></content:encoded>
+      <wp:post_name>home</wp:post_name>
+      <wp:post_type>page</wp:post_type>
+      <wp:post_id>0</wp:post_id>
+      <wp:status>publish</wp:status>
+    </item>
+    <item>
+      <link>/resume</link>
+      <title>Resume</title>
+      <pubDate>Thu, 25 Apr 2024 02:16:57 +0000</pubDate>
+      <content:encoded><![CDATA[<article class="sections" id="sections" data-page-sections="6629ba57cd5c6301f90bf008">
+  
+  
+    
+    
+
+
+  
+
+
+<section
+  data-test="page-section"
+  
+  data-section-theme=""
+  class='page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--medium
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+      
+    
+    
+    '
+  
+  data-section-id="6629ba70c06bd435d2d5b817"
+  
+  data-controller="SectionWrapperController"
+  data-current-styles="{
+  &quot;imageOverlayOpacity&quot;: 0.15,
+  &quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+  &quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
+  &quot;customSectionHeight&quot;: 10,
+  &quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+  &quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+  &quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+  &quot;customContentWidth&quot;: 50,
+  &quot;backgroundColor&quot;: &quot;&quot;,
+  &quot;sectionTheme&quot;: &quot;&quot;,
+  &quot;sectionAnimation&quot;: &quot;none&quot;,
+  &quot;backgroundMode&quot;: &quot;image&quot;
+}"
+  data-current-context="{
+  &quot;video&quot;: null,
+  &quot;backgroundImageId&quot;: null,
+  &quot;backgroundMediaEffect&quot;: null,
+  &quot;divider&quot;: null,
+  &quot;typeName&quot;: null
+}"
+  data-animation="none"
+  data-fluid-engine-section
+   
+  
+    
+  
+  
+>
+  <div
+    class="section-border" 
+    
+  >
+    <div class="section-background">
+    
+      
+    
+    </div>
+  </div>
+  <div
+    class='content-wrapper'
+    style='
+      
+        
+      
+    '
+  >
+    <div
+      class="content"
+      
+    >
+      
+      
+      
+      
+      
+      
+      <div data-fluid-engine="true"><style>
+
+.fe-6629ba70cd5c6301f90bf359 {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(12,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 11.0px;
+  column-gap: 11.0px;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-6629ba70cd5c6301f90bf359 {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-6629ba70cd5c6301f90bf359 {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(39,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-yui_3_17_2_1_1714001077090_12552 {
+    grid-area: 1/2/7/10;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+        
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1714001077090_12552 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-yui_3_17_2_1_1714001077090_12552 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1714001077090_12552 {
+      grid-area: 1/2/40/26;
+      z-index: 1;
+
+      
+        
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1714001077090_12552 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-yui_3_17_2_1_1714001077090_12552 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1714001077090_13762 {
+    grid-area: 7/2/13/10;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      
+        
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1714001077090_13762 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-yui_3_17_2_1_1714001077090_13762 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1714001077090_13762 {
+      grid-area: 1/2/2/6;
+      z-index: 2;
+
+      
+        
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1714001077090_13762 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-yui_3_17_2_1_1714001077090_13762 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+</style><div class="fluid-engine fe-6629ba70cd5c6301f90bf359"><div class="fe-block fe-block-yui_3_17_2_1_1714001077090_12552"><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1714001077090_12552"><div class="sqs-block-content"><!DOCTYPE html>
+<html>
+<head>
+    <title>Qing Yin's Resume</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { text-align: center; margin-bottom: 20px; } /* 增加标题底部的间距 */
+        .section-title { background-color: #000; color: #fff; padding: 5px; margin-top: 20px; } /* 增加节标题顶部的间距 */
+        ul { padding: 0; }
+        li { margin-bottom: 10px; } /* 增加列表项底部的间距 */
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Qing Yin</h1>
+        <p>(404)940-8310 | <a href="mailto:oni.inn99@gmail.com">oni.inn99@gmail.com</a> | Atlanta</p>
+    </div>
+
+    <h2 class="section-title">Education</h2>
+    <ul>
+        <li>Emory University - Master of Science in Computer Science, Expected Dec 2024</li>
+        <li>Macau University of Science and Technology - Bachelor of Science in Computer Technology and Application, Jun 2021</li>
+        <li>GPA: 3.7/4.0</li>
+        <li>Awards: Outstanding Cultural and Academic Award, 1st Prize in Mathematical Contest, Dean’s Honor List</li>
+    </ul>
+
+    <h2 class="section-title">Technical Skills</h2>
+    <ul>
+        <li>Programming Languages: C, Python, MATLAB, SQL, VHDL, MIPS, ABEL</li>
+        <li>Deep Learning Frameworks: TensorFlow, PyTorch</li>
+        <li>Platforms and Systems: Linux, Windows, Arduino, Raspberry Pi</li>
+    </ul>
+
+    <h2 class="section-title">Work Experience</h2>
+    <ul>
+        <li>
+            <strong>Emory University, Career Center</strong> - Atlanta, GA<br>
+            Graduate Assistant, SharePoint Site Development Project for Pathways Center (May 2023 - Present)<br>
+            Key contributions:
+            <ul>
+                <li>Developed and managed a SharePoint site, improving operational efficiencies.</li>
+                <li>Implemented strategic communications and managed project timelines.</li>
+                <li>Advanced technical projects, such as app development for merchandise management.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 class="section-title">Research Experience & Projects</h2>
+    <ul>
+        <li>
+            <strong>Emory University</strong> - Atlanta, GA<br>
+            Graduate Student Researcher, Wei Jin Lab (Jan 2024 - May 2024)<br>
+            Contributions:
+            <ul>
+                <li>Enhanced EEG pattern classification system using advanced learning techniques.</li>
+                <li>Adapted the model to diverse expert opinions, ensuring robust performance.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Macau University of Science and Technology</strong> - Taipa, Macau<br>
+            Graduate Student Researcher, Xiaolin Tian Lab (Sep 2020 - Jun 2021)<br>
+            Contributions:
+            <ul>
+                <li>Modified Faster R-CNN neural network for identifying volcanic features on Mars.</li>
+                <li>Improved workflow efficiency by 65% through algorithm optimization.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 class="section-title">Leadership & Volunteer Engagement</h2>
+    <ul>
+        <li>
+            <strong>Macau University of Science and Technology</strong> - Teaching Assistant for Image Processing (Feb 2020 - Jun 2020)<br>
+            Roles and Responsibilities:
+            <ul>
+                <li>Served as liaison between students and instructor, facilitating effective communication.</li>
+                <li>Organized review sessions and graded assignments.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 class="section-title">Additional Skills & Interests</h2>
+    <ul>
+        <li>Languages: Chinese (native), English</li>
+        <li>Interests: Drawing, Keyboard, Motorcycle</li>
+    </ul>
+</body>
+</html</div></div></div><div class="fe-block fe-block-yui_3_17_2_1_1714001077090_13762"><div class="sqs-block code-block sqs-block-code" data-block-type="23" id="block-yui_3_17_2_1_1714001077090_13762"><div class="sqs-block-content"><pre class="source-code"></pre></div></div></div></div></div>
+    </div>
+  
+  </div>
+  
+</section>
+
+  
+</article>]]></content:encoded>
+      <wp:post_name>resume</wp:post_name>
+      <wp:post_type>page</wp:post_type>
+      <wp:post_id>1</wp:post_id>
+      <wp:status>publish</wp:status>
+    </item>
+  </channel>
+</rss>
+

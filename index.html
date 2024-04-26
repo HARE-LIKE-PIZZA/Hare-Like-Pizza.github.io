@@ -5,35 +5,37 @@
     <style>
         body { 
             font-family: Arial, sans-serif; 
-            margin: 0; 
-            padding: 20px; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; /* 使内容居中显示 */
+            margin: 0 auto; /* 上下保持0，左右自动调整，确保居中 */
+            padding: 20px;
+            max-width: 70%; /* 设置内容最大宽度为浏览器宽度的70% */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        .header { 
-            text-align: center; 
-            margin-bottom: 30px; /* 确保标题下方有足够空间 */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            width: 100%; /* 确保header占据全部的指定宽度 */
         }
-        .section-title { 
-            font-weight: bold; /* 确保标题是粗体 */
-            background-color: transparent; 
-            color: #000; 
-            padding: 5px; 
-            margin-top: 30px; /* 每个部分顶部的间距 */
-            margin-bottom: 10px; /* 每个部分底部的间距 */
-            width: 100%; /* 宽度为100% */
-            text-align: left; /* 标题文本左对齐 */
+        .section-title {
+            font-weight: bold;
+            color: #000;
+            padding: 10px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            background-color: transparent;
+            text-align: left;
+            width: 100%;
         }
         ul {
-            width: 80%; /* 列表宽度为80%，居中显示 */
-            list-style-type: none; /* 移除项目符号 */
             padding: 0;
-            margin: 0 auto; /* 自动外边距使其居中 */
+            list-style-type: none;
+            margin: 0 auto;
+            width: 100%; /* 确保ul元素占据全部的指定宽度 */
+            text-align: left;
         }
         li {
-            margin-bottom: 10px; /* 每个列表项底部间距 */
-            text-align: left; /* 列表项文本左对齐 */
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -88,4 +90,10 @@
             Graduate Student Researcher, Xiaolin Tian Lab (Sep 2020 - Jun 2021)<br>
             Contributions:
             <ul>
-                <li
+                <li>Modified Faster R-CNN neural network for identifying volcanic features on Mars.</li>
+                <li>Improved workflow efficiency by 65% through algorithm optimization.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 class="section-title">Leadership & Volunteer Engagement</h2

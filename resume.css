@@ -2,18 +2,21 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    padding-top: 50px; /* Add padding at the top of the page */
 }
 
 .header {
     text-align: center;
-    margin-bottom: 20px; /* Ensure there's enough space below the header */
+    margin-bottom: 30px; /* Ensure there's more space below the header */
+    position: relative; /* Ensure header has a position context */
 }
 
 .section-title {
     background-color: #000;
     color: #fff;
     padding: 5px;
-    margin-top: 20px; /* Ensure each section title is clearly separated */
+    margin-top: 30px; /* Increase space before each section title */
+    clear: both; /* Clear floats in case any are used around titles */
 }
 
 ul {
@@ -22,5 +25,6 @@ ul {
 }
 
 li {
-    margin-bottom: 10px; /* Add space below each list item to prevent overlap */
+    margin-bottom: 10px; /* Add more space below each list item to prevent overlap */
 }
+

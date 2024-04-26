@@ -2,9 +2,7 @@
 <html>
 <head>
     <title>Qing Yin's Resume</title>
-    <style>
-        .small-caps {
-            font-variant: small-caps; /* 应用小型大写样式 */
+    <style>=
         body { 
             font-family: Arial, sans-serif; 
             margin: 0 auto; /* 上下保持0，左右自动调整，确保居中 */
@@ -14,6 +12,13 @@
             flex-direction: column;
             align-items: center;
         }
+        .header h1, .section-title { /* 应用样式到header标题和section标题 */
+            font-variant: small-caps; /* 使用小型大写 */
+            text-align: center; /* 文本居中 */
+            font-weight: normal; /* 取消粗体样式 */
+            margin-top: 20px; /* 上边距 */
+            margin-bottom: 20px; /* 下边距 */
+        }
         .header {
             font-size: 24px; /* 设置较大的字体大小以强调头部 */
             text-align: center;
@@ -21,7 +26,6 @@
             width: 100%; /* 确保header占据全部的指定宽度 */
         }
         .section-title {
-            font-variant: small-caps; /* 应用小型大写 */
             font-size: 18px; /* 设置标题的字体大小 */
             /*font-weight: bold;*/
             color: #000;
@@ -46,7 +50,7 @@
 </head>
 <body>
     <div class="header">
-        <h1><span class="small-caps">Qing Yin</span></h1>
+        <h1>Qing Yin</h1>
         <p>(404)940-8310 | <a href="mailto:oni.inn99@gmail.com">oni.inn99@gmail.com</a> | Atlanta</p>
     </div>
 

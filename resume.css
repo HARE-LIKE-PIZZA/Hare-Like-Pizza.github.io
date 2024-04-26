@@ -9,14 +9,16 @@ body {
 
 .header {
     text-align: center;
-    margin-bottom: 20px; /* 确保标题下方有足够空间 */
+    margin-bottom: 30px; /* 增加标题下方空间以提供更明显的间隔 */
+    font-weight: bold; /* 使标题字体粗体 */
 }
 
 .section-title {
-    font-weight: bold; /* 使用黑体字 */
+    font-weight: bold; /* 使用粗体字以突出显示标题 */
     color: #000; /* 字体颜色改为黑色 */
-    padding: 5px;
-    margin-top: 20px; /* 确保每个标题之间明确分隔 */
+    padding: 10px;
+    margin-top: 30px; /* 增加顶部间距以分隔各节 */
+    margin-bottom: 20px; /* 增加底部间距以分隔各节 */
     background-color: transparent; /* 移除背景色 */
     width: 100%; /* 标题宽度设为100% */
 }

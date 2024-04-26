@@ -2,29 +2,33 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    padding-top: 50px; /* Add padding at the top of the page */
+    display: flex; /* 添加flex布局 */
+    flex-direction: column; /* 让内容垂直排列 */
+    align-items: center; /* 居中对齐所有内容 */
 }
 
 .header {
     text-align: center;
-    margin-bottom: 30px; /* Ensure there's more space below the header */
-    position: relative; /* Ensure header has a position context */
+    margin-bottom: 20px; /* 确保标题下方有足够空间 */
 }
 
 .section-title {
-    background-color: #000;
-    color: #fff;
+    font-weight: bold; /* 使用黑体字 */
+    color: #000; /* 字体颜色改为黑色 */
     padding: 5px;
-    margin-top: 30px; /* Increase space before each section title */
-    clear: both; /* Clear floats in case any are used around titles */
+    margin-top: 20px; /* 确保每个标题之间明确分隔 */
+    background-color: transparent; /* 移除背景色 */
+    width: 100%; /* 标题宽度设为100% */
 }
 
 ul {
     padding: 0;
-    list-style-type: none; /* Remove bullet points from list items */
+    list-style-type: none; /* 移除列表项的项目符号 */
+    width: 100%; /* 列表宽度设置为100% */
 }
 
 li {
-    margin-bottom: 10px; /* Add more space below each list item to prevent overlap */
+    margin-bottom: 10px; /* 在列表项下方添加空间，防止重叠 */
+    text-align: left; /* 列表项文本对齐方式为左对齐 */
+    width: 100%; /* 列表项宽度设为100% */
 }
-

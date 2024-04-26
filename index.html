@@ -12,6 +12,11 @@
             flex-direction: column;
             align-items: center;
         }
+        .right-align {
+            text-align: right;
+            display: block; /* 将span转换为块元素，使其占据整行 */
+            width: 100%; /* 宽度设置为100%，确保它能够影响其内部文本的对齐 */
+        }
         .header h1, .section-title { /* 应用样式到header标题和section标题 */
             font-variant: small-caps; /* 使用小型大写 */
             text-align: center; /* 文本居中 */
@@ -56,8 +61,9 @@
 
     <h2 class="section-title">Education</h2>
     <ul>
-        <li>Emory University - Master of Science in Computer Science, Expected Dec 2024</li>
-        <li>Macau University of Science and Technology - Bachelor of Science in Computer Technology and Application, Jun 2021</li>
+        <li><b>Emory University</b></li>
+        <li><i></i>Master of Science in Computer Science</i><span class="right-align">Dec 2024</span></li>
+        <li><b>Macau University of Science and Technology</b> - Bachelor of Science in Computer Technology and Application, Jun 2021</li>
         <li>GPA: 3.7/4.0</li>
         <li>Awards: Outstanding Cultural and Academic Award, 1st Prize in Mathematical Contest, Dean’s Honor List</li>
     </ul>

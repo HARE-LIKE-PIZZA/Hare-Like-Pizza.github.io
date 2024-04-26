@@ -13,26 +13,28 @@
             align-items: center;
         }
         .right-align {
-            text-align: right;
-            display: inline; /* 将span转换为块元素，使其占据整行 */
-            width: 100%; /* 宽度设置为100%，确保它能够影响其内部文本的对齐 */
+            /*margin-left: auto;*/ /* 自动左边距推送到右侧 */
+            /*text-align: right;*/
+            float: right; /* 使元素浮动到右侧 */
+            /*display: block; /* 将span转换为与其他文本共享一行 */
+            /*width: 70%; /* 宽度设置为100%，确保它能够影响其内部文本的对齐 */
         }
         .header h1, .section-title { /* 应用样式到header标题和section标题 */
             font-variant: small-caps; /* 使用小型大写 */
             text-align: center; /* 文本居中 */
-            font-weight: bold; /* 取消粗体样式 */
             margin-top: 20px; /* 上边距 */
-            /* margin-bottom: 20px; /* 下边距 */
+            /* margin-bottom: 20px; *//* 下边距 */
         }
         .header {
-            font-size: 20px; /* 设置较大的字体大小以强调头部 */
+            font-size: 18px; /* 设置较大的字体大小以强调头部 */
+            font-weight: normal; /* 取消粗体样式 */
             text-align: center;
             margin-bottom: 10px;
             width: 100%; /* 确保header占据全部的指定宽度 */
         }
         .section-title {
-            font-size: 18px; /* 设置标题的字体大小 */
-            /*font-weight: bold;*/
+            font-size: 16px; /* 设置标题的字体大小 */
+            font-weight: bold;
             color: #000;
             padding: 10px;
             margin-top: 10px;
@@ -62,10 +64,15 @@
     <h2 class="section-title">Education</h2>
     <ul>
         <li><b>Emory University</b></li>
-        <li><i></i>Master of Science in Computer Science</i><span class="right-align">Dec 2024</span></li>
-        <li><b>Macau University of Science and Technology</b> - Bachelor of Science in Computer Technology and Application, Jun 2021</li>
-        <li>GPA: 3.7/4.0</li>
-        <li>Awards: Outstanding Cultural and Academic Award, 1st Prize in Mathematical Contest, Dean’s Honor List</li>
+        <li><i>Master of Science in Computer Science<span class="right-align">Dec 2024</span></i></li>
+        <li><b>Macau University of Science and Technology</b></li>
+
+        <li><i>Bachelor of Science in Computer Technology and Application<span class="right-align">Jun 2021</span></i></li>
+        <li>GPA: <i>3.7/4.0</i></li>
+        <li>- The Outstanding Cultural and Academic Award</li>
+        <li>- 1st Prize, Contemporary Undergraduate Mathematical Contest in Modeling, Macau</li>
+        <li>- 2nd Prize, Contemporary Undergraduate Mathematical Contest in Modeling, China</li>
+        <li>- Dean’s Honor List of the Faculty of Information Technology </li>
     </ul>
 
     <h2 class="section-title">Technical Skills</h2>

@@ -3,11 +3,38 @@
 <head>
     <title>Qing Yin's Resume</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .header { text-align: center; }
-        .section-title { background-color: transparent; color: #000; padding: 5px; }
-        table { width: 70%; }
-        td { padding: 5px; }
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; /* 使内容居中显示 */
+        }
+        .header { 
+            text-align: center; 
+            margin-bottom: 30px; /* 确保标题下方有足够空间 */
+        }
+        .section-title { 
+            font-weight: bold; /* 确保标题是粗体 */
+            background-color: transparent; 
+            color: #000; 
+            padding: 5px; 
+            margin-top: 30px; /* 每个部分顶部的间距 */
+            margin-bottom: 10px; /* 每个部分底部的间距 */
+            width: 100%; /* 宽度为100% */
+            text-align: left; /* 标题文本左对齐 */
+        }
+        ul {
+            width: 80%; /* 列表宽度为80%，居中显示 */
+            list-style-type: none; /* 移除项目符号 */
+            padding: 0;
+            margin: 0 auto; /* 自动外边距使其居中 */
+        }
+        li {
+            margin-bottom: 10px; /* 每个列表项底部间距 */
+            text-align: left; /* 列表项文本左对齐 */
+        }
     </style>
 </head>
 <body>
@@ -61,28 +88,4 @@
             Graduate Student Researcher, Xiaolin Tian Lab (Sep 2020 - Jun 2021)<br>
             Contributions:
             <ul>
-                <li>Modified Faster R-CNN neural network for identifying volcanic features on Mars.</li>
-                <li>Improved workflow efficiency by 65% through algorithm optimization.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h2 class="section-title">Leadership & Volunteer Engagement</h2>
-    <ul>
-        <li>
-            <strong>Macau University of Science and Technology</strong> - Teaching Assistant for Image Processing (Feb 2020 - Jun 2020)<br>
-            Roles and Responsibilities:
-            <ul>
-                <li>Served as liaison between students and instructor, facilitating effective communication.</li>
-                <li>Organized review sessions and graded assignments.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h2 class="section-title">Additional Skills & Interests</h2>
-    <ul>
-        <li>Languages: Chinese (native), English</li>
-        <li>Interests: Drawing, Keyboard, Motorcycle</li>
-    </ul>
-</body>
-</html>
+                <li

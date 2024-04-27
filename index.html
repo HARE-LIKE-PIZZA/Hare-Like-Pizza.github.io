@@ -5,107 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quinn Yin's Page</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0 auto; /* 上下保持0，左右自动调整，确保居中 */
+            padding: 20px;
+            max-width: 100%; /* 设置内容最大宽度为浏览器宽度的70% */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             background: #f4f4f4;
         }
+        /* 导航栏样式 */
         .navbar {
             background-color: transparent;
             color: #333;
             text-align: left;
             padding: 10px 0;
         }
+
+        /* 链接样式 */
         .navbar a {
             color: #333;
             padding: 12px 20px;
             text-decoration: none;
             font-size: 18px;
         }
+
+        /* 鼠标悬停时的链接样式 */
         .navbar a:hover {
             background-color: #ddd;
             color: black;
         }
-        .content {
-            padding: 20px;
-            max-width: 70%;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+
+        .header h1,  { /* 应用样式到header标题*/
+            font-variant: small-caps; /* 使用小型大写 */
+            text-align: center; /* 文本居中 */
+            margin-top: 0; /* 上边距 */
+            /*margin-top: 20px; /* 上边距 */
+            /* margin-bottom: 20px; *//* 下边距 */
         }
-        .right-align {
-            float: right;
-        }
-        .header h1, .section-title {
-            font-variant: small-caps;
-            text-align: center;
-            margin-top: 0;
-        }
+
         .header {
-            font-size: 18px;
-            font-weight: normal;
+            font-size: 18px; /* 设置较大的字体大小以强调头部 */
+            font-weight: normal; /* 取消粗体样式 */
             text-align: center;
             margin-bottom: 10px;
-            width: 100%;
+            width: 100%; /* 确保header占据全部的指定宽度 */
         }
-        .section-title {
-            font-size: 16px;
-            font-weight: bold;
-            color: #000;
-            padding: 10px;
-            margin-top: 10px;
-            background-color: transparent;
-            text-align: left;
-            width: 100%;
-        }
+        
         ul {
             padding:  20px;
             list-style-type: none;
             margin: 0 auto;
-            width: 100%;
+            width: 100%; /* 确保ul元素占据全部的指定宽度 */
             text-align: left;
         }
+
         li {
             margin-bottom: 8px;
         }
-        #home-section, #resume-section {
-            display: none; /* Initially hide all sections */
-        }
     </style>
 </head>
+
 <body>
     <div class="navbar">
-        <!-- Navigation links -->
-        <a href="#" onclick="showSection('home')">Home</a>
-        <a href="#" onclick="showSection('resume')">Resume</a>
+        <a href="www.q-yin.com">Home</a>
+        <a href="www.q-yin.com/resume">Resume</a>
     </div>
 
-    <div id="home-section" class="content">
+    <div id="Quinn's Page">
         <h1>Welcome to the Quinn (Qing) Yin's Page</h1>
         <p>This is Quinn.</p>
     </div>
-
-    <div id="resume-section" class="content">
-        <div class="header">
-            <h1>Qing Yin</h1>
-            <p>(404)940-8310 | <a href="mailto:Quinn@q-yin.com">Quinn@q-yin.com</a> | Atlanta</p>
-        </div>
+    
+    <div class="header">
+        <h1>Qing Yin</h1>
+        <p>(404)940-8310 | <a href="mailto:Quinn@q-yin.com">Quinn@q-yin.com</a> | Atlanta</p>
     </div>
-
-    <script>
-        function showSection(sectionId) {
-            // Hide all sections
-            document.getElementById('home-section').style.display = 'none';
-            document.getElementById('resume-section').style.display = 'none';
-            
-            // Show the selected section
-            document.getElementById(sectionId + '-section').style.display = 'block';
-        }
-
-        // Initially show the home section
-        showSection('home');
-    </script>
 </body>
 </html>

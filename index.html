@@ -10,8 +10,8 @@
         body { 
             font-family: Arial, sans-serif; 
             margin: 0 auto; 
-            padding: 20px;
-            max-width: 100%;
+            padding: 20px 80px; /* 增加左右留白到 80px */
+            max-width: 1000px; /* 限制页面最大宽度为 1000px */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -24,6 +24,7 @@
             color: #333;
             text-align: left;
             padding: 10px 0;
+            width: 100%;
         }
 
         /* 导航栏链接样式 */
@@ -74,7 +75,7 @@
         }
         
         ul {
-            padding:  20px;
+            padding: 20px;
             list-style-type: none;
             margin: 0 auto;
             width: 100%;
@@ -84,6 +85,10 @@
         li {
             margin-bottom: 8px;
         }
+
+        .content {
+            width: 100%; /* 内容部分占满页面宽度（受body的max-width控制） */
+        }
     </style>
 </head>
 
@@ -91,8 +96,8 @@
     <div class="navbar">
         <a href="">Home</a>
         <a href="/resume">Resume</a>
-    <a href="https://github.com/HARE-LIKE-PIZZA">Blog</a> <!-- 修改后的“Blog”按钮 -->
-</div>
+        <a href="https://github.com/HARE-LIKE-PIZZA">Blog</a> <!-- 修改后的“Blog”按钮 -->
+    </div>
 
     <div class="header">
         <h1>Qing Yin</h1>
